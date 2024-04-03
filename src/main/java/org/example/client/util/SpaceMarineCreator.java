@@ -132,5 +132,16 @@ public class SpaceMarineCreator {
         }
         return sp;
     }
+
+
+    public int getId() {
+        System.out.println("Enter Id:");
+        try {
+            return Integer.parseInt(scanner.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Entered wrong format input....");
+            return 0;
+        }
+    }
 } 
 

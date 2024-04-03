@@ -1,6 +1,3 @@
 #!/bin/bash
-echo "Perform Operation in su mode"
 export PATH_TO_XML='src/files/test.xml'
-echo "Export path to xml done done"
 export PATH_TO_SCRIPT='src/files/script'
-echo "Export script path set done"
